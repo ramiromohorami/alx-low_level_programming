@@ -10,6 +10,7 @@ void print_binary(unsigned long int n)
 		unsigned long int current;
 
 		for (i = 63; i >= 0; i--)
+		{
 		current = n >> i;
 			if (current & 1)
 			{
