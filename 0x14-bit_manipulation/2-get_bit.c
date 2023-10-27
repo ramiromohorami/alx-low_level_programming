@@ -7,7 +7,7 @@
  * Return: index if true -1 if error
  */
 
-int get_bit(unsigned long int n, unsigned long int index)
+int get_bit(unsigned long int n, unsigned long index)
 {
 	int value;
 
