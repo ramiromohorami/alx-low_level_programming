@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_bit -give bit value
+ * get_bit - give bit value
  * @n: the number
  * @index: index to veify
  * Return: index if true -1 if error
