@@ -7,7 +7,7 @@
  * Return: 1 if succes -1 if not
  */
 
-int delete_dnodeint_at_index(dlistint_t *head, unsigned int index)
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *tmp = *head;
 
