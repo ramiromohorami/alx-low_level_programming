@@ -6,7 +6,7 @@
  * @n: int field
  * Return: address of the node
  */
-dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new = malloc(sizeof(dlistint_t));
 
@@ -17,11 +17,11 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 	if (!*head)
 	{
 		*head = new;
-		new->nex = NULL;
+		new->next = NULL;
 	}
 	else
 	{
-		new->newt = *head;
+		new->next = *head;
 		(*head)->prev = new;
 		*head = new;
 	}
