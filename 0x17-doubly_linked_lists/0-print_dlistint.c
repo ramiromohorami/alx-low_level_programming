@@ -1,4 +1,4 @@
-#include "linkedlist.h"
+#include "lists.h"
 /**
  * print_dlistint - prints double linked list
  * @h: address of the head ode
